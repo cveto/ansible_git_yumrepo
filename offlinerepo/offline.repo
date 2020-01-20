@@ -1,0 +1,8 @@
+[offline-rpms]
+name=offline repo
+baseurl=file:///root/offlinerepo
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/offlinerepo/RPM-GPG-KEY-EPEL-7
+	   file:///etc/pki/rpm-gpg/offlinerepo/RPM-GPG-KEY-CentOS-7
+	   file:///etc/pki/rpm-gpg/offlinerepo/gitlab-gitlab-ce
